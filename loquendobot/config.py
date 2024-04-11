@@ -1,1 +1,1 @@
-GTTS_LANGUAGE = "es-es"
+GTTS_LANGUAGE = "es"
