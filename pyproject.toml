@@ -10,6 +10,7 @@ python = "^3.12"
 python-telegram-bot = "^21.0.1"
 gtts = "^2.5.1"
 pydub = "^0.25.1"
+pyogg = "^0.6.14a1"
 
 
 [build-system]

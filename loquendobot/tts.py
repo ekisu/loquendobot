@@ -4,6 +4,8 @@ from pydub import AudioSegment
 from tempfile import NamedTemporaryFile
 from .utils import overlay_sound_perfect_loop
 
+LOQUENDO_OVERLAY_PATH = 'loquendo.mp3'
+
 def tts(text: str, lang: str) -> AudioSegment:
     bytes_io = BytesIO()
     tts_object = gTTS(text, lang=lang)
@@ -12,6 +14,6 @@ def tts(text: str, lang: str) -> AudioSegment:
     bytes_io.seek(0)
     return AudioSegment.from_file(bytes_io)
 
-def loquendo_tts(text: str, lang: str, overlaid_audio_path = "loquendo.mp3") -> AudioSegment:
-    overlaid_audio = AudioSegment.from_file(overlaid_audio_path)
+def loquendo_tts(text: str, lang: str) -> AudioSegment:
+    overlaid_audio = AudioSegment.from_file(LOQUENDO_OVERLAY_PATH)
     return overlay_sound_perfect_loop(tts(text, lang), overlaid_audio)

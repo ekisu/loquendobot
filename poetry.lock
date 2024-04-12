@@ -253,6 +253,18 @@ files = [
 ]
 
 [[package]]
+name = "pyogg"
+version = "0.6.14a1"
+description = "Xiph.org's Ogg Vorbis, Opus and FLAC for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "PyOgg-0.6.14a1-py2.py3-none-win32.whl", hash = "sha256:794db340fb5833afb4f493b40f91e3e0f594606fd4b31aea0ebf5be2de9da964"},
+    {file = "PyOgg-0.6.14a1-py2.py3-none-win_amd64.whl", hash = "sha256:40f79b288b3a667309890885f4cf53371163b7dae17eb17567fb24ab467eca26"},
+    {file = "PyOgg-0.6.14a1.tar.gz", hash = "sha256:8294b34aa59c90200c4630c2cc4a5b84407209141e8e5d069d7a5be358e94262"},
+]
+
+[[package]]
 name = "python-telegram-bot"
 version = "21.0.1"
 description = "We have made you a wrapper you can't refuse"
@@ -329,4 +341,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "23daf0efdf64360944821df5f24caf622b77e8a755a32fb0527fa198008093b4"
+content-hash = "1d394e004ce0d1c82422297bee723386bdc43ce9d94caa9eee9d67684979a24f"

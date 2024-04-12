@@ -1,0 +1,230 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "awscli2@latest": {
+      "last_modified": "2024-03-25T21:25:22Z",
+      "resolved": "github:NixOS/nixpkgs/07262b18b97000d16a4bdb003418bd2fb067a932#awscli2",
+      "source": "devbox-search",
+      "version": "2.15.32",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z9zmm6sfrnj4md7i2xwi0rmanqig1pr1-awscli2-2.15.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/rsb66ckc3r9yx9pz8akzfgjwripb06wb-awscli2-2.15.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/z9zmm6sfrnj4md7i2xwi0rmanqig1pr1-awscli2-2.15.32"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gl6b818xrg5syvzw683nhpf6im6km5d2-awscli2-2.15.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/vlg3zavwqi6j121nd2r7l9pm5v7iiny5-awscli2-2.15.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/gl6b818xrg5syvzw683nhpf6im6km5d2-awscli2-2.15.32"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zwjhyr8kqna43l12y3kamx7lx94kpk9h-awscli2-2.15.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/32n3vvx6ky86cv51gv8a1gkwj7z5j7qr-awscli2-2.15.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/zwjhyr8kqna43l12y3kamx7lx94kpk9h-awscli2-2.15.32"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k8g2inndsrzg55sz6v0nh8i8wfhgzd6y-awscli2-2.15.32",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/m9jb2rwa68d0jpswhdipk5z1ngwhwn36-awscli2-2.15.32-dist"
+            }
+          ],
+          "store_path": "/nix/store/k8g2inndsrzg55sz6v0nh8i8wfhgzd6y-awscli2-2.15.32"
+        }
+      }
+    },
+    "nodejs@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#nodejs_21",
+      "source": "devbox-search",
+      "version": "21.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x1d9im8iy3q74jx1ij2k3pjsfgvqihn1-nodejs-21.7.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/q6nyy20l3ixkc6j20sng8vfdjbx3fx3l-nodejs-21.7.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/x1d9im8iy3q74jx1ij2k3pjsfgvqihn1-nodejs-21.7.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b7cq5jvw90bl4ls3nssrj5xwh3d6vldf-nodejs-21.7.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/w6z9pd67lv405dv366zbfn7cyvf8r43z-nodejs-21.7.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/b7cq5jvw90bl4ls3nssrj5xwh3d6vldf-nodejs-21.7.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/klvzykcgrhlbpkgdaw5329w2l09wp4vd-nodejs-21.7.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/3nxs6fcwrbllix8zwdgpw52wg022h4mm-nodejs-21.7.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/klvzykcgrhlbpkgdaw5329w2l09wp4vd-nodejs-21.7.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7fd8ac3wm7gq8k5qd6l15hqx13bm4mr6-nodejs-21.7.1",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/pxmz45ki1zrp6lzfypcjyhgk6v9mpk55-nodejs-21.7.1-libv8"
+            }
+          ],
+          "store_path": "/nix/store/7fd8ac3wm7gq8k5qd6l15hqx13bm4mr6-nodejs-21.7.1"
+        }
+      }
+    },
+    "pulumi@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#pulumi",
+      "source": "devbox-search",
+      "version": "3.93.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pv48jwgzrms9y2hrslxca82k62wbj6p2-pulumi-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pv48jwgzrms9y2hrslxca82k62wbj6p2-pulumi-3.93.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w6pjrmvsb3z9ligammghjamabl8hglcq-pulumi-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w6pjrmvsb3z9ligammghjamabl8hglcq-pulumi-3.93.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rv3l4r0vaa58lh1zscf4iwmra2ngg66g-pulumi-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rv3l4r0vaa58lh1zscf4iwmra2ngg66g-pulumi-3.93.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pi1xn7c4gccq581q18qns5552ysp08iv-pulumi-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pi1xn7c4gccq581q18qns5552ysp08iv-pulumi-3.93.0"
+        }
+      }
+    },
+    "pulumiPackages.pulumi-language-nodejs@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#pulumiPackages.pulumi-language-nodejs",
+      "source": "devbox-search",
+      "version": "3.93.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d17vi0h0isdpvnivz29c0m76lcq7by9i-pulumi-language-nodejs-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d17vi0h0isdpvnivz29c0m76lcq7by9i-pulumi-language-nodejs-3.93.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j8i3drzvshl20a607rbmb101c6wdkgr2-pulumi-language-nodejs-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j8i3drzvshl20a607rbmb101c6wdkgr2-pulumi-language-nodejs-3.93.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7p8ibm8f2smvid1x5mf4fnsnkfhs8gp8-pulumi-language-nodejs-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7p8ibm8f2smvid1x5mf4fnsnkfhs8gp8-pulumi-language-nodejs-3.93.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8m81yzljbmq1qrkk0c1a92mjidi2sai7-pulumi-language-nodejs-3.93.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8m81yzljbmq1qrkk0c1a92mjidi2sai7-pulumi-language-nodejs-3.93.0"
+        }
+      }
+    }
+  }
+}

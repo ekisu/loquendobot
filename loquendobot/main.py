@@ -4,6 +4,9 @@ from .config import GTTS_LANGUAGE
 from .utils import audio_segment_to_voice
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
+
+import asyncio
+import json
 import logging
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -30,4 +33,16 @@ application.add_handler(start_handler)
 tts_handler = CommandHandler("tts", tts_command)
 application.add_handler(tts_handler)
 
-application.run_polling()
+def lambda_handler(event, context):
+    return asyncio.get_event_loop().run_until_complete(handle_telegram_update(event['body']))
+
+async def handle_telegram_update(serialized_update: str):
+    await application.initialize()
+
+    update = Update.de_json(json.loads(serialized_update), application.bot)
+    await application.process_update(update)
+
+    return {
+        'statusCode': 200,
+        'body': 'success',
+    }
